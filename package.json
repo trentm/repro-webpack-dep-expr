@@ -1,0 +1,17 @@
+{
+  "name": "repro-webpack-dep-expr",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "start": "node ./dist/bundle.js"
+  },
+  "author": "github.com/trentm",
+  "license": "MIT",
+  "dependencies": {
+    "@opentelemetry/instrumentation": "^0.51.1",
+    "@opentelemetry/instrumentation-http": "^0.51.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
